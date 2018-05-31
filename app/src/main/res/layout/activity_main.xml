@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#271f41"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/linea_blanca"
+        android:padding="5dp"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/leyenda7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Warren Buffett"
+                android:textColor="#FFF"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:paddingTop="20dp" />
+            <TextView
+                android:id="@+id/leyenda8"
+                android:layout_below="@+id/leyenda7"
+                android:layout_alignStart="@+id/leyenda7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="Aprendiz"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagen4"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/imagenes4"
+            android:padding="5dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="300 Pts"
+                android:textColor="#F8CC07"
+                android:textSize="20dp"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:textAlignment="viewEnd"/>
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@mipmap/copa"
+                android:paddingRight="16dp"
+                android:layout_gravity="right"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bordes_redondos"
+        android:padding="5dp"
+        android:layout_marginBottom="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagen1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/imagenes1"
+            android:padding="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+            android:id="@+id/leyenda1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Janet Perkins"
+            android:textColor="#000000"
+            android:paddingLeft="16dp"
+            android:paddingTop="20dp" />
+        <TextView
+            android:id="@+id/leyenda2"
+            android:layout_below="@+id/leyenda1"
+            android:layout_alignStart="@+id/leyenda1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1000 Pts"
+            android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="F1"
+            android:textColor="#000000"
+            android:textAlignment="viewEnd"
+            android:textSize="25dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bordes_redondos"
+        android:padding="5dp"
+        android:layout_marginBottom="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagen2"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/imagenes2"
+            android:padding="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/leyenda3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mary Johnson"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp"/>
+            <TextView
+                android:id="@+id/leyenda4"
+                android:layout_below="@+id/leyenda3"
+                android:layout_alignStart="@+id/leyenda3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="800 Pts"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nascar"
+            android:textColor="#5AC962"
+            android:textAlignment="viewEnd"
+            android:textSize="25dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bordes_redondos"
+        android:padding="5dp"
+        android:layout_marginBottom="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagen3"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/imagenes3"
+            android:padding="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/leyenda5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abbey Christensen"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp"/>
+            <TextView
+                android:id="@+id/leyenda6"
+                android:layout_below="@+id/leyenda5"
+                android:layout_alignStart="@+id/leyenda5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="350 Pts"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Racing"
+            android:textColor="#55F2F8"
+            android:textAlignment="viewEnd"
+            android:textSize="25dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bordes_redondos"
+        android:padding="5dp"
+        android:layout_marginBottom="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagen5"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/imagenes5"
+            android:padding="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/leyenda11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Diego Villalobos"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp" />
+            <TextView
+                android:id="@+id/leyenda12"
+                android:layout_below="@+id/leyenda11"
+                android:layout_alignStart="@+id/leyenda11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200 Pts"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Uso"
+            android:textColor="#2B49F3"
+            android:textAlignment="viewEnd"
+            android:textSize="25dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/bordes_redondos"
+        android:padding="5dp"
+        android:layout_marginBottom="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/imagen6"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/imagenes6"
+            android:padding="5dp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/leyenda13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gabriela Rivera"
+                android:textColor="#000000"
+                android:paddingLeft="16dp"
+                android:paddingTop="20dp" />
+            <TextView
+                android:id="@+id/leyenda14"
+                android:layout_below="@+id/leyenda13"
+                android:layout_alignStart="@+id/leyenda13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150 Pts"
+                android:paddingLeft="16dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nascar"
+            android:textColor="#B31CB3"
+            android:textAlignment="viewEnd"
+            android:textSize="25dp"
+            android:paddingTop="16dp"
+            android:paddingRight="16dp"/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
